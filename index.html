@@ -15,9 +15,9 @@
 				<p id="result">0</p>
 			</div>
 			<div class="row-1">
-				<button class="utility">AC</button>
-				<button class="utility">+/-</button>
-				<button class="utility">BkSp</button>
+				<button class="utility" onclick="reset()">AC</button>
+				<button class="utility" onclick="handleSign()">+/-</button>
+				<button class="utility" onclick="backSpace()">C</button>
 				<button class="operator">/</button>
 			</div>
 			<div class="row-1">
@@ -40,8 +40,8 @@
 			</div>
 			<div class="row-4">
 				<button class="number" id="zero">0</button>
-				<button class="decimal">.</button>
-				<button class="equal">=</button>
+				<button class="number">.</button>
+				<button class="equal" onclick="handleEqual()">=</button>
 			</div>
 		</div>
 	</body>
