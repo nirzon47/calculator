@@ -42,7 +42,7 @@ function handleOperator(operator) {
 	if (previousNumber === '') {
 		previousNumber = currentNumber
 		currentNumber = ''
-		display.textContent = currentNumber
+		display.textContent = previousNumber
 	}
 
 	// Calculates in case both the numbers exist and a calculation is possible, puts the result in previousNumber and empties the currentNumber for further calculations.
